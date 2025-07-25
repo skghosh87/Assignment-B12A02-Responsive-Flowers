@@ -285,3 +285,48 @@ body {
   align-items: center;
   gap: 20px;
 }
+/* start the colorful image bunch */
+.bunch-section {
+  width: 100%;
+  height: 533px;
+  background-image: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.bunch-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bunch-content h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.subscribe-form {
+  justify-content: center;
+  align-items: center;
+  margin-top: 23px;
+}
+.subscribe-form input[type="email"] {
+  width: 644px;
+  height: 50px;
+  padding: 0px 20px;
+  border: none;
+}
+.subscribe-form button {
+  background-color: #e95a08;
+  border: none;
+  width: 186px;
+  height: 50px;
+  padding: 0px 50px;
+  color: white;
+  font-size: 16px;
+  /* font-weight: bold; */
+}
