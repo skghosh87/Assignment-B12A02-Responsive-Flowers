@@ -176,6 +176,18 @@ body {
 .flower-store-img {
   width: 540px;
   height: 597px;
+  position: relative;
+}
+.trusted-badge {
+  position: absolute;
+  top: -130px;
+  right: -100px;
+  z-index: 1;
+}
+.badge {
+  width: 286px;
+  height: 286px;
+  /* position: absolute; */
 }
 .flower-store-title {
   width: 540px;
