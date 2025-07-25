@@ -95,7 +95,7 @@ body {
   margin-top: 13px;
   width: 550px;
   height: 108px;
-  line-height: 27px;
+  /* line-height: 27px; */
 }
 /* Our Plant Section  */
 .plant-content {
@@ -318,7 +318,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.bunch-content h1 {
+.bunch-content h3 {
   font-size: 50px;
   font-weight: bold;
 }
@@ -383,3 +383,87 @@ body {
   height: 36px;
 }
 /* responsive layout  */
+@media screen and (max-width: 576px) {
+  .navbar {
+    .home,
+    .shop,
+    .about {
+      display: none;
+    }
+    margin: 16px;
+  }
+  .content-head {
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 16px;
+  }
+  .content-para {
+    margin-bottom: 20px;
+  }
+  .plant-card {
+    margin-top: 300px;
+  }
+  .content-para,
+  .card-content,
+  .plant-sub-head,
+  .flower-store-title,
+  .Deals-para,
+  .deals-text1,
+  .deals-text2,
+  .bunch-text1,
+  .subscribe-form {
+    max-width: 100%;
+  }
+
+  .content-img {
+    width: 570px;
+    height: 245px;
+  }
+  .card-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .flower-store-section,
+  .deals-container,
+  .deals-pic {
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .deals-pic3 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .trusted-badge {
+    display: none;
+  }
+  .bunch-section {
+    width: 100%;
+  }
+
+  .subscribe-form input[type="email"] {
+    width: 100%;
+    padding: 0px;
+  }
+  .subscribe-form button {
+    width: 40%;
+    padding: 0px;
+  }
+  .footer-section,
+  .footer-1st {
+    flex-direction: column;
+  }
+  .footer-section {
+    margin-left: 16px;
+  }
+  .footer-2nd {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 0px;
+  }
+  .footer-li {
+    margin-left: 0px;
+  }
+  .footer-3rd {
+    margin-top: 15px;
+  }
+}
